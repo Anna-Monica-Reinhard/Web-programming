@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Task10</title>
+        <meta charset="utf-8">
+</head>
+
+<body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Detect.js/2.2.2/detect.min.js"></script>
+    <script>
+        const ua = navigator.userAgent;
+    console.log(ua);
+    const reg = new RegExp(/Edg\/*/);
+    if (reg.test(ua)) {
+
+        window.location.href = "https://onliner.by";
+    }
+    else {
+        window.location.href = "https://google.by";
+    }
+
+
+    </script>
+
+</body>
+
+</html>
